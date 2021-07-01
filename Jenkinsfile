@@ -12,7 +12,8 @@ node {
     def buildInfo
 
     stage ('Clone') {
-        git url: 'https://github.com/cloudacademy/devops-webapp.git'
+        // Kho người ta tui fork về, để backup luôn
+        git url: 'https://github.com/thaygiaoth/devops-webapp.git'
     }
 
     stage ('Artifactory Configuration') {
