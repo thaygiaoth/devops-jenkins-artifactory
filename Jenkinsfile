@@ -1,3 +1,6 @@
+// Các kiểu lưu file sau khi build thành công --> gọi là artifact
+// https://www.jenkins.io/doc/pipeline/examples/#archive-build-output-artifacts
+//
 //START-OF-SCRIPT
 node {
     def server = Artifactory.server 'artifactory'
